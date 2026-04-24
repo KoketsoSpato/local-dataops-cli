@@ -23,7 +23,7 @@ class Validator:
         except ValueError as e:
             return f"ValueError: {e}"
         except Exception as e:
-            return f"GeneraError: {e}"
+            return f"GeneralError: {e}"
         return None
     
     

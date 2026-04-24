@@ -19,9 +19,11 @@ class ReportService:
               f"{'Average':<18} : {avg_minutes:.2f}min\n")
 
     def expense_report(self):
+        
         storage = Storage()
         data = storage.load("store/expenses.json")
         
+        # leave the function if there is no data found
         if not data:
             print("No expense data found.")
             return

@@ -6,10 +6,6 @@ from query import QueryService
 import json
 
 class CLI:
-
-    def __init__(self):
-        #initialize stuff here
-        pass
     #  start running app
     def run(self):
         """Starting running the program"""
@@ -170,6 +166,7 @@ class CLI:
                     break
                 case 2:
                     report.expense_report()
+                    break
                 case _:
                     print("invalid selection, please try again")
                     break
