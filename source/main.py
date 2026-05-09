@@ -3,14 +3,17 @@ from storage import Storage
 from ingest import IngestService
 from report import ReportService
 from query import QueryService
+from logger_config import logger
 import json
 
 class CLI:
     #  start running app
     def run(self):
         """Starting running the program"""
+        logger.info("Application started")
         print("=== Local DataOps CLI ===")
         self.menu_selection()
+        logger.info("Application closed successfully")
     def menu(self):
         """Displays the main menu and gives user options to choose."""
         print(
@@ -29,7 +32,7 @@ class CLI:
                    choice = int(input("Choose:"))
                    break
                 except ValueError as e:
-                    print(f"ValueError : {e}")
+                    logger.error(f"ValueError : {e}")
             
             match choice:
                 case 1:
@@ -43,7 +46,7 @@ class CLI:
                 case 5:
                     running = False
                 case _:
-                    print("Invalid choice, please try again!!!")
+                    logger.warning("Invalid choice, please try again!!!")
 
 
     def import_datasets(self):
@@ -59,17 +62,19 @@ class CLI:
                     choice = int(input("Choose: "))
                     break
                 except ValueError as e:
-                    print(f"ValueError : {e}")
+                    logger.error(f"ValueError : {e}")
                 
             match choice:
                 case 1:
                     self.study_summary()
+                    logger.info("Study dataset imported successfully")
                     break
                 case 2:
                     self.expenses_summary()
+                    logger.info("Expenses dataset imported successfully")
                     break
                 case _:
-                    print("invalid selection, please try again")
+                    logger.warning("invalid selection, please try again")
 
 
     def expenses_summary(self):
@@ -99,11 +104,11 @@ class CLI:
             f"{'Time':<18} : {exe_time:.3f}s \n"
             )
         except FileNotFoundError as e:
-            print(f"FileNotFoundError: {e}")
+            logger.error(f"FileNotFoundError: {e}")
         except ValueError as e:
-            print(f"ValueError: {e}")
+            logger.error(f"ValueError: {e}")
         except Exception as e:
-            print(f"GeneralError: {e}")
+            logger.error(f"GeneralError: {e}")
         
         
     def study_summary(self):
@@ -134,11 +139,11 @@ class CLI:
             f"{'Time':<18} : {exe_time:.3f}s \n"
             )
         except FileNotFoundError as e:
-            print(f"FileNotFoundError: {e}")
+            logger.error(f"FileNotFoundError: {e}")
         except ValueError as e:
-            print(f"ValueError: {e}")
+            logger.error(f"ValueError: {e}")
         except Exception as e:
-            print(f"GeneralError: {e}")
+            logger.error(f"GeneralError: {e}")
             
         
     
@@ -158,7 +163,7 @@ class CLI:
                     choice = int(input("Choose: "))
                     break
                 except ValueError as e:
-                    print(f"ValueError : {e}")
+                    logger.error(f"ValueError : {e}")
 
             match choice:
                 case 1:
@@ -168,7 +173,7 @@ class CLI:
                     report.expense_report()
                     break
                 case _:
-                    print("invalid selection, please try again")
+                    logger.warning("invalid selection, please try again")
                     break
     
     # handle the queries
@@ -184,7 +189,7 @@ class CLI:
                     choice = int(input("Choose: "))
                     break
                 except ValueError as e:
-                    print(f"ValueError : {e}")
+                    logger.error(f"ValueError : {e}")
             match choice:
                 case 1:
                     query.search_study_by_topic()
@@ -193,7 +198,7 @@ class CLI:
                     query.filter_expense_by_category()
                     break
                 case _:
-                    print(f"invalid selection, please try again.")
+                    logger.warning(f"invalid selection, please try again.")
 
 if __name__ == "__main__":
     app = CLI()

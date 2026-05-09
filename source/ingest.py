@@ -4,11 +4,14 @@ from storage import Storage
 import json
 from utils import Tools
 import time
+from logger_config import logger
+
 class IngestService:
 
     
     def read_study(self):
         tool = Tools()
+        
         start = time.time()
         try:
             with open("input/study.csv","r") as file:
@@ -22,13 +25,13 @@ class IngestService:
                     index+=1
                     problems = error.validate_study(line)
                     if problems:
-                        storage.write_logs(index,problems,"input/study.csv")
+                        logger.error(f"study.csv | Row {index} | {problems}") # log change
                     else:
                         clean_data.append(tranformer.transform_study(index,line))
                 storage.save(clean_data,"store/study.json")
                 # print(data)
         except FileNotFoundError as e:
-            print(f"FileNotFoundError : {e}")
+            logger.error(f"FileNotFound : {e}")
         end = time.time()
         return tool.get_time(end,start)
     
@@ -50,12 +53,12 @@ class IngestService:
                     index+=1
                     problems = error.validate_expense(obj) 
                     if problems:
-                        storage.write_logs(index,problems,input_expense_path)
+                        logger.error(f"expenses.json | Row {index} | {problems}")
                     else:
                         clean_data.append(tranformer.transform_expense(index,obj))
                 storage.save(clean_data,store_expense_path)
         except FileNotFoundError as e:
-            print(f"FileNotFoundError: {e}")
+            logger.error(f"FileNotFound : {e}")
         end = time.time()
         return tool.get_time(end,start)        
         

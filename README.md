@@ -15,32 +15,6 @@ How it works:
 •	The system follows a simple data pipeline:
 o	Input → Validate → Transform → Store → Analyze
 
-Project structure:
-local-dataops-cli/
-│
-├── main.py
-├── ingest.py
-├── storage.py
-├── validators.py
-├── transform.py
-├── reports.py
-├── query.py
-├── utils.py
-├── decorators.py
-│
-├── input/
-│   ├── study.csv
-│   └── expenses.json
-│
-├── store/
-│   ├── study.json
-│   └── expenses.json
-│
-├── output/
-│   └── errors.log
-│
-└── README.md
-
 Example output:
     Processing input/study.csv ...
     Rows processed	: 200
