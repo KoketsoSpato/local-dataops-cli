@@ -1,0 +1,378 @@
+[
+    {
+        "id": 1,
+        "date": "2026-02-01",
+        "topic": "DSA",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 2,
+        "date": "2026-02-01",
+        "topic": "PYTHON",
+        "minutes": 45,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 3,
+        "date": "2026-02-01",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 90,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 4,
+        "date": "2026-02-02",
+        "topic": "DSA",
+        "minutes": 75,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 5,
+        "date": "2026-02-02",
+        "topic": "PYTHON JSON",
+        "minutes": 40,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 6,
+        "date": "2026-02-02",
+        "topic": "STATISTICS",
+        "minutes": 50,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 7,
+        "date": "2026-02-03",
+        "topic": "DSA",
+        "minutes": 80,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 8,
+        "date": "2026-02-03",
+        "topic": "PYTHON",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 9,
+        "date": "2026-02-03",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 70,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 10,
+        "date": "2026-02-04",
+        "topic": "STATISTICS",
+        "minutes": 55,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 11,
+        "date": "2026-02-04",
+        "topic": "PYTHON",
+        "minutes": 65,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 12,
+        "date": "2026-02-04",
+        "topic": "DSA",
+        "minutes": 90,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 13,
+        "date": "2026-02-05",
+        "topic": "DSA",
+        "minutes": 45,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 14,
+        "date": "2026-02-05",
+        "topic": "PYTHON",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 15,
+        "date": "2026-02-05",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 85,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 16,
+        "date": "2026-02-06",
+        "topic": "STATISTICS",
+        "minutes": 70,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 17,
+        "date": "2026-02-06",
+        "topic": "PYTHON JSON",
+        "minutes": 50,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 18,
+        "date": "2026-02-06",
+        "topic": "DSA",
+        "minutes": 95,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 19,
+        "date": "2026-02-07",
+        "topic": "PYTHON",
+        "minutes": 40,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 20,
+        "date": "2026-02-07",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 100,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 21,
+        "date": "2026-02-07",
+        "topic": "DSA",
+        "minutes": 75,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 22,
+        "date": "2026-02-08",
+        "topic": "STATISTICS",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 23,
+        "date": "2026-02-08",
+        "topic": "PYTHON",
+        "minutes": 45,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 24,
+        "date": "2026-02-08",
+        "topic": "DSA",
+        "minutes": 90,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 25,
+        "date": "2026-02-09",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 80,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 26,
+        "date": "2026-02-09",
+        "topic": "PYTHON JSON",
+        "minutes": 50,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 27,
+        "date": "2026-02-09",
+        "topic": "STATISTICS",
+        "minutes": 65,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 28,
+        "date": "2026-02-10",
+        "topic": "DSA",
+        "minutes": 70,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 29,
+        "date": "2026-02-10",
+        "topic": "PYTHON",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 30,
+        "date": "2026-02-10",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 85,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 35,
+        "date": "2026-02-12",
+        "topic": "STATISTICS",
+        "minutes": 0,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 36,
+        "date": "2026-02-13",
+        "topic": "PYTHON JSON",
+        "minutes": 999,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 38,
+        "date": "2026-02-14",
+        "topic": "PYTHON",
+        "minutes": 45,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 39,
+        "date": "2026-02-14",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 90,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 40,
+        "date": "2026-02-15",
+        "topic": "STATISTICS",
+        "minutes": 70,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 41,
+        "date": "2026-02-15",
+        "topic": "DSA",
+        "minutes": 80,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 42,
+        "date": "2026-02-15",
+        "topic": "PYTHON",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 43,
+        "date": "2026-02-16",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 85,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 44,
+        "date": "2026-02-16",
+        "topic": "DSA",
+        "minutes": 75,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 45,
+        "date": "2026-02-17",
+        "topic": "PYTHON JSON",
+        "minutes": 55,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 46,
+        "date": "2026-02-17",
+        "topic": "STATISTICS",
+        "minutes": 65,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 47,
+        "date": "2026-02-18",
+        "topic": "DSA",
+        "minutes": 90,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 48,
+        "date": "2026-02-18",
+        "topic": "PYTHON",
+        "minutes": 45,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 49,
+        "date": "2026-02-18",
+        "topic": "LINEAR ALGEBRA",
+        "minutes": 80,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 50,
+        "date": "2026-02-19",
+        "topic": "STATISTICS",
+        "minutes": 60,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 51,
+        "date": "2026-02-19",
+        "topic": "DSA",
+        "minutes": 70,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    },
+    {
+        "id": 52,
+        "date": "2026-02-20",
+        "topic": "PYTHON JSON",
+        "minutes": 50,
+        "created_at": "2026-05-09 17:56:39",
+        "source_file": "input/study.csv"
+    }
+]

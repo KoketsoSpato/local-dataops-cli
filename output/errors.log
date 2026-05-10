@@ -1,0 +1,65 @@
+2026-05-09 17:08:09 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:08:09 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:08:09 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:08:09 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:08:09 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:11:37 | WARNING | invalid selection, please try again
+2026-05-09 17:11:40 | WARNING | invalid selection, please try again
+2026-05-09 17:22:23 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:22:23 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:22:23 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:22:23 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:22:23 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:43:28 | INFO | Application started
+2026-05-09 17:43:35 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:43:35 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:43:35 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:43:35 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:43:35 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:43:35 | INFO | Study dataset imported successfully
+2026-05-09 17:44:04 | ERROR | expenses.json | Row 31 | ValueError: unconverted data remains: 0
+2026-05-09 17:44:04 | ERROR | expenses.json | Row 32 | ValueError: amount is not a real number : R25
+2026-05-09 17:44:04 | ERROR | expenses.json | Row 33 | GeneralError: missing category value
+2026-05-09 17:44:04 | ERROR | expenses.json | Row 34 | GeneralError: incomplete expense record
+2026-05-09 17:44:04 | ERROR | expenses.json | Row 35 | ValueError: amount is not a postive real number : -20
+2026-05-09 17:44:04 | ERROR | expenses.json | Row 36 | ValueError: time data 'bad-date' does not match format '%Y-%m-%d'
+2026-05-09 17:44:04 | INFO | Expenses dataset imported successfully
+2026-05-09 17:48:15 | INFO | Application started
+2026-05-09 17:48:16 | ERROR | ValueError : invalid literal for int() with base 10: ''
+2026-05-09 17:48:20 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:48:20 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:48:20 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:48:20 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:48:20 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:48:20 | INFO | Study dataset imported successfully
+2026-05-09 17:49:29 | INFO | Application started
+2026-05-09 17:49:50 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:49:50 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:49:50 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:49:50 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:49:50 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:49:50 | INFO | Study dataset imported successfully
+2026-05-09 17:50:38 | INFO | Application started
+2026-05-09 17:50:41 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:50:41 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:50:41 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:50:41 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:50:41 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:50:41 | INFO | Study dataset imported successfully
+2026-05-09 17:53:46 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:53:46 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:53:46 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:53:46 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:53:46 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:56:12 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:56:12 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:56:12 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:56:12 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:56:12 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:56:37 | INFO | Application started
+2026-05-09 17:56:39 | ERROR | study.csv | Row 31 | GeneralError: line is empty
+2026-05-09 17:56:39 | ERROR | study.csv | Row 32 | ValueError: invalid literal for int() with base 10: 'abc'
+2026-05-09 17:56:39 | ERROR | study.csv | Row 33 | ValueError: minutes must be a positive integer: -45
+2026-05-09 17:56:39 | ERROR | study.csv | Row 34 | GeneralError: GeneralError: the topic is empty
+2026-05-09 17:56:39 | ERROR | study.csv | Row 37 | ValueError: unconverted data remains: 0
+2026-05-09 17:56:39 | INFO | Study dataset imported successfully
